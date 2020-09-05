@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mad-hackers-project/static/css/main.5f361e03.chunk.css",
+    "main.js": "/mad-hackers-project/static/js/main.98cbac29.chunk.js",
+    "main.js.map": "/mad-hackers-project/static/js/main.98cbac29.chunk.js.map",
+    "runtime-main.js": "/mad-hackers-project/static/js/runtime-main.07c75e2b.js",
+    "runtime-main.js.map": "/mad-hackers-project/static/js/runtime-main.07c75e2b.js.map",
+    "static/js/2.448c0c98.chunk.js": "/mad-hackers-project/static/js/2.448c0c98.chunk.js",
+    "static/js/2.448c0c98.chunk.js.map": "/mad-hackers-project/static/js/2.448c0c98.chunk.js.map",
+    "index.html": "/mad-hackers-project/index.html",
+    "precache-manifest.92f7a34dd90d6060f32279e2b15c11a0.js": "/mad-hackers-project/precache-manifest.92f7a34dd90d6060f32279e2b15c11a0.js",
+    "service-worker.js": "/mad-hackers-project/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/mad-hackers-project/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.448c0c98.chunk.js.LICENSE.txt": "/mad-hackers-project/static/js/2.448c0c98.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mad-hackers-project/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07c75e2b.js",
+    "static/js/2.448c0c98.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.98cbac29.chunk.js"
+  ]
+}
