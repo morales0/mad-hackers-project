@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mad-hackers-project/static/css/main.06644d04.chunk.css",
-    "main.js": "/mad-hackers-project/static/js/main.a8591df4.chunk.js",
-    "main.js.map": "/mad-hackers-project/static/js/main.a8591df4.chunk.js.map",
+    "main.css": "/mad-hackers-project/static/css/main.059a1e9b.chunk.css",
+    "main.js": "/mad-hackers-project/static/js/main.53b4c4de.chunk.js",
+    "main.js.map": "/mad-hackers-project/static/js/main.53b4c4de.chunk.js.map",
     "runtime-main.js": "/mad-hackers-project/static/js/runtime-main.07c75e2b.js",
     "runtime-main.js.map": "/mad-hackers-project/static/js/runtime-main.07c75e2b.js.map",
-    "static/js/2.21942966.chunk.js": "/mad-hackers-project/static/js/2.21942966.chunk.js",
-    "static/js/2.21942966.chunk.js.map": "/mad-hackers-project/static/js/2.21942966.chunk.js.map",
+    "static/js/2.85a54e1e.chunk.js": "/mad-hackers-project/static/js/2.85a54e1e.chunk.js",
+    "static/js/2.85a54e1e.chunk.js.map": "/mad-hackers-project/static/js/2.85a54e1e.chunk.js.map",
     "index.html": "/mad-hackers-project/index.html",
-    "precache-manifest.c6b270cb32f39d5000e3731a2d82b00d.js": "/mad-hackers-project/precache-manifest.c6b270cb32f39d5000e3731a2d82b00d.js",
+    "precache-manifest.d8b6899d07ce93b235b4e9ac615c59a9.js": "/mad-hackers-project/precache-manifest.d8b6899d07ce93b235b4e9ac615c59a9.js",
     "service-worker.js": "/mad-hackers-project/service-worker.js",
-    "static/css/main.06644d04.chunk.css.map": "/mad-hackers-project/static/css/main.06644d04.chunk.css.map",
-    "static/js/2.21942966.chunk.js.LICENSE.txt": "/mad-hackers-project/static/js/2.21942966.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/mad-hackers-project/static/media/cloud_bg.5d06e13a.png",
+    "static/css/main.059a1e9b.chunk.css.map": "/mad-hackers-project/static/css/main.059a1e9b.chunk.css.map",
+    "static/js/2.85a54e1e.chunk.js.LICENSE.txt": "/mad-hackers-project/static/js/2.85a54e1e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mad-hackers-project/static/media/ground_bg2.f788bad0.png",
     "static/media/logo.svg": "/mad-hackers-project/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.07c75e2b.js",
-    "static/js/2.21942966.chunk.js",
-    "static/css/main.06644d04.chunk.css",
-    "static/js/main.a8591df4.chunk.js"
+    "static/js/2.85a54e1e.chunk.js",
+    "static/css/main.059a1e9b.chunk.css",
+    "static/js/main.53b4c4de.chunk.js"
   ]
 }
