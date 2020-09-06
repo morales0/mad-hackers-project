@@ -106,7 +106,7 @@ function App() {
         <div css={`width: 100%; overflow-y: auto;`}>
           <div className="questions_grid">
             <QuestionCard questionString="Am I at risk for getting the flu?">
-            <section className="graphs">
+              <section className="graphs">
                 <BarChart
                   width={400}
                   height={300}
@@ -147,18 +147,35 @@ function App() {
               </section>
               <section className="blurb">
                 <p>
-                  Across all age groups, millions of Americans fall ill with the flu each year. 
-                  Of these millions of people, tens of thousands will need hospitalization and many 
-                  eventually die. While the elderly are most susceptible, millions of children younger 
-                  than the age of 4 become very sick with the flu every year. *add immunocompromised, 
-                  people who cannot get vaccine, and pregnant women * Vaccines are a critical way to 
-                  protect these vulnerable members of our community as well as safeguard your own health.
+                  Unfortunately, everyone is at risk for getting the flu. Across all age groups, millions of 
+                  Americans fall ill with the flu each year. Of these millions of people, tens of thousands will 
+                  need hospitalization and many eventually die. While the elderly are most susceptible, millions 
+                  of children younger than the age of 4 become very sick with the flu every year. Many studies 
+                  have shown the protective effects of the flu vaccine for children, one study finding that 
+                  vaccination reduced flu-related deaths in children under 4 by 51%. Vaccination of pregnant women 
+                  also has been found to confer several health benefits, including temporary protection to the newborn 
+                  baby and a reduction in flu complications for the mother. Vaccines play a critical role in protecting 
+                  vulnerable members of your community as well as safeguarding personal health. 
                 </p>
+                <p>
+                  TL;DR: Yes, you can get the flu. While you personally may not be at risk for dangerous complications, 
+                  the flu is never fun. And it’s a patriotic thing to protect others in your community. 
+                </p>
+              </section>
+              <section className="citation">
+                  <p>
+                    C.D.C. (2019, November 22). Burden Estimates for the 2016-2017 Influenza Season | CDC. CDC. 
+                    https://www.cdc.gov/flu/about/burden/2016-2017.html
+                  </p>
+                  <p>
+                    Vaccine Effectiveness: How Well Do the Flu Vaccines Work? | CDC. (2020). CDC. 
+                    https://www.cdc.gov/flu/vaccines-work/vaccineeffect.htm
+                  </p>
               </section>
             </QuestionCard>
 
-            <QuestionCard questionString="What do I have to gain?">
-            <section className="graphs">
+            <QuestionCard questionString="What do I have to gain from getting my flu shot?">
+              <section className="graphs">
                 <BarChart
                   width={400}
                   height={300}
@@ -203,10 +220,26 @@ function App() {
                   Each year, the Center for Disease Control (CDC) estimates the positive impact of the flu 
                   vaccine. Since every year brings a different seasonal flu strain, the numbers vary from 
                   year to year. However, each vaccine has prevented several million infections and saved 
-                  thousands of lives. Even though it may feel redundant to go back each year for a new vaccine,
-                  it is the best thing that you can do to reduce your chances of getting the virus. Remember, 
-                  last years’ vaccine does not necessarily provide immunity to this years’ seasonal strains.
+                  thousands of lives. It’s also important to note that individual vaccination has a large 
+                  impact on community health by protecting vulnerable populations. There have also been 
+                  studies correlating flu shots with a decrease in hospitalizations for chronic diseases 
+                  such as diabetes and chronic lung disease. And, in the midst of the COVID-19 pandemic, it 
+                  is more important than ever to do everything you can to protect your immune system from pathogens. 
                 </p>
+                <p>
+                  TL;DR: For a shot that takes a few minutes, there are lots of health benefits!
+                </p>
+              </section>
+
+              <section className="citation">
+                  <p>
+                    Past Seasons Estimated Influenza Disease Burden Averted by Vaccination | CDC. (2020, January 7).
+                    CDC. https://www.cdc.gov/flu/vaccines-work/past-burden-averted-est.html
+                  </p>
+                  <p>
+                    Vaccine Effectiveness: How Well Do the Flu Vaccines Work? | CDC. (2020). CDC. 
+                    https://www.cdc.gov/flu/vaccines-work/vaccineeffect.htm
+                  </p>
               </section>
             </QuestionCard>
 
@@ -216,28 +249,76 @@ function App() {
               </section>
               <section className="blurb">
                 <p>
-                  The National Vaccine Advisory Committee reviews vaccinations along with the FDA and other 
-                  advisory commissions: each year the safety and efficacy of vaccinations are scrutinized and 
-                  carefully monitored. While concerns have spread through the years linking thimerosal--a 
-                  preservative in some vaccines--with autism, the data above shows the contrary. Even as thimerosal 
-                  has been phased out of most vaccines, autism rates have continued to climb.
+                  Several groups (the National Vaccine Advisory Committee, the FDA, other advisory commissions) 
+                  review the safety of vaccinations with the utmost care. The ingredients and viral targets of 
+                  each vaccine are scrutinized and carefully monitored. While concerns have spread through the 
+                  years linking thimerosal--a mercury-based preservative used in some vaccines--with autism, the 
+                  graph above is just one example of the many scientific studies debunking this myth. The graph 
+                  was published in 2003, when concerns about autism were beginning to take root in many communities. 
+                  However, the data show that even as thimerosal was phased out of most vaccines, autism rates have 
+                  continued to climb as a result of better diagnostics. 
                 </p>
+                <p>
+                  Thimerosal is only present in multi-dose vials of the flu vaccine to keep it sterile in between 
+                  injections. If you are concerned about receiving Thimerosal in your flu vaccine, be sure to mention 
+                  this to your healthcare provider, and they will vaccinate you with a single-dose vial which does not 
+                  have it as an ingredient. 
+                </p>
+                <p>
+                  TL;DR: Vaccines are quite safe, but do talk about concerns you may have with your healthcare provider. 
+                  There are a few situations where you may not be eligible for a vaccine (such as having an egg allergy 
+                  or certain immune disorders), but for most people the vaccine has been designed to be beneficial to your health.
+                </p>
+              </section>
+              <section className="citation">
+                  <p>
+                    Stehr-Green, P., Tull, P., Stellfeld, M., Mortenson, P.-B., & Simpson, D. (2003). Autism and 
+                    thimerosal-containing vaccines. American Journal of Preventive Medicine, 25(2), 101–106. 
+                    https://doi.org/10.1016/s0749-3797(03)00113-2
+                  </p>
               </section>
             </QuestionCard>
             <QuestionCard questionString="I already got a flu vaccine last year. Why do I have to get a new one?">
               <section className="blurb">
                 <p>
-                  Even though it may feel redundant to go back each year for a new vaccine, it is the best thing that 
-                  you can do to reduce your chances of getting the virus. Remember, last years’ vaccine does not necessarily 
-                  provide immunity to this years’ seasonal strains. 
+                  Even though it may feel redundant to go back each year for a new vaccine, it is the best thing that you can do to 
+                  reduce your chances of getting the virus. Remember, last years’ vaccine does not provide immunity to this years’ 
+                  seasonal strains, as the virus mutates quite fast. The quick mutation rate means that the virus is constantly changing, 
+                  and you need to have the most current vaccination to keep up with it! Also, the immunity that a flu vaccine gives you is 
+                  not long-lasting, and your immune system needs a new reminder each year to stay prepared for the virus. 
+                </p>
+                <p>
+                  TL;DR: Get your new flu shot! 
+                </p>
+              </section>
+              <section className="citation">
+                <p>
+                  Key Facts About Seasonal Flu Vaccine. (2020, August 31). Centers for Disease Control and Prevention. 
+                  https://www.cdc.gov/flu/prevent/keyfacts.htm
                 </p>
               </section>
             </QuestionCard>
             <QuestionCard questionString="Are there alternative options to getting an injection?">
               <section className="blurb">
                 <p>
-                  Pending
+                  There are two options for receiving a flu vaccine - a traditional shot and a nasal spray called FluMist. 
+                  While they are both acceptable, they are made of different components (FluMist uses a live virus which has 
+                  been weakened and the normal shot uses a killed or “inactivated” virus). While both of these vaccines are
+                  good choices, research studies have found the traditional flu shot to be more effective at protecting from 
+                  flu viruses. Currently, Astrazeneca, the company producing FluMist, is working on improving its efficiency.
                 </p>
+                <p>
+                  TL;DR: If you or your child is afraid of needles, there is still a good option available, FluMist. Keep in 
+                  mind that it is not quite as effective as a traditional shot, but still is much better than not getting a flu 
+                  vaccine at all.
+                </p>
+              </section>
+              <section className="citation">
+                  <p>
+                    Chung, J. R., Flannery, B., Ambrose, C. S., Bégué, R. E., Caspard, H., DeMarcus, L., Fowlkes, A. L., 
+                    Kersellius, G., Steffens, A., & Fry, A. M. (2019). Live Attenuated and Inactivated Influenza Vaccine 
+                    Effectiveness. Pediatrics, 143(2), e20182094. https://doi.org/10.1542/peds.2018-2094
+                  </p>
               </section>
             </QuestionCard>
           </div>

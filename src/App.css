@@ -170,6 +170,11 @@
   justify-content: center;
 }
 
+.citation > p {
+  text-align: center;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 900px) {
   .info_container_content > .blurb {
     width: 90%;
