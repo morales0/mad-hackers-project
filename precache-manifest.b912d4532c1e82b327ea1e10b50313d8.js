@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb766f9447c103cc3669dca454cb458a",
+    "revision": "a38e776ffdbb4d18260fe6bce390c1b3",
     "url": "/mad-hackers-project/index.html"
   },
   {
-    "revision": "052a90713b75382b1b1b",
-    "url": "/mad-hackers-project/static/css/main.059a1e9b.chunk.css"
+    "revision": "42a3bdf4a99ab843ee48",
+    "url": "/mad-hackers-project/static/css/main.ff9bac7b.chunk.css"
   },
   {
-    "revision": "62f2330ab1fcdc8c6891",
-    "url": "/mad-hackers-project/static/js/2.85a54e1e.chunk.js"
+    "revision": "350722ce33ff7783ee39",
+    "url": "/mad-hackers-project/static/js/2.b4be5f26.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/mad-hackers-project/static/js/2.85a54e1e.chunk.js.LICENSE.txt"
+    "revision": "b815bed3bedb5a8af7470bb094451139",
+    "url": "/mad-hackers-project/static/js/2.b4be5f26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "052a90713b75382b1b1b",
-    "url": "/mad-hackers-project/static/js/main.53b4c4de.chunk.js"
+    "revision": "42a3bdf4a99ab843ee48",
+    "url": "/mad-hackers-project/static/js/main.cfb758f2.chunk.js"
   },
   {
     "revision": "49e957b8c2fed6064056",
