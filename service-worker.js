@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mad-hackers-project/precache-manifest.b912d4532c1e82b327ea1e10b50313d8.js"
+  "/mad-hackers-project/precache-manifest.81577a27cd37042382270e3440ed5702.js"
 );
 
 self.addEventListener('message', (event) => {
