@@ -75,7 +75,7 @@ function App() {
       <div className="landing_container app_container">
         <header className="main_app_header">
           <h1 className="brand_text">
-            Question.
+            Mad Hackers
           </h1>
         </header>
 
@@ -98,7 +98,7 @@ function App() {
         transform: ${page === 1 ? 'translateY(-100%)' : 'none'};
       `}>
         <header>
-          <h1 className="header_text">Vaccines</h1>
+          <h1 className="header_text">Mad Hackers</h1>
           <IconButton aria-label="return" size="small" onClick={() => setPage(0)}>
             <ArrowUpwardIcon fontSize="inherit" />
           </IconButton>
