@@ -12,6 +12,8 @@ import IconButton from '@material-ui/core/IconButton'
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import { QuestionCard } from './components'
 
+import autTable from './images/autism_table.png'
+
 import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Label
 } from 'recharts';
@@ -209,6 +211,9 @@ function App() {
             </QuestionCard>
 
             <QuestionCard questionString="Will my child get autism if they get a flu vaccine?">
+              <section className="graphs">
+                  <img id="autism_table" alt="Autism Graph" src={autTable} width="550" height="400"/>
+              </section>
               <section className="blurb">
                 <p>
                   The National Vaccine Advisory Committee reviews vaccinations along with the FDA and other 
